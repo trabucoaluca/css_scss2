@@ -1,0 +1,19 @@
+{
+  "name": "frontmentor",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML5, para LarnU",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "author": "Jorge Gutierrez",
+  "license": "ISC",
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.54.0"
+  }
+}
